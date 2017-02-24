@@ -1,4 +1,4 @@
-node('master') {
+node() {
     stage name:"Checkout", concurrency:1
 
     checkout scm
